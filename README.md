@@ -1,3 +1,21 @@
+#Info from creater
+
+In this app you will find :
+1.Login
+2.add user.
+3.list user.
+4.delete users.
+
+In the login session i have changed passord request with enc_passsword
+Because this login session created dosent let y to  check in databse not hashed passwords
+In validates i have used a sameAs to check if the password and  retype password is the same.
+
+In add model i have created 1 password label and 1 retype password label
+The retype password is used to be stored as enc_pass.
+
+
+
+
 # CakePHP Application Skeleton
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
